@@ -1,9 +1,18 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow
+ */
+
 import React, {Component} from 'react';
-import {Platform, Stylesheet, View, Text} from 'react-native';
-import Rootstack from './crud/Navigator/Rootstack';
+import Router from './router';
+import {View} from 'react-native';
+import {Text} from 'native-base';
 
 export default class App extends Component {
   render() {
-    return <Rootstack />;
+    return <Router />;
   }
 }
